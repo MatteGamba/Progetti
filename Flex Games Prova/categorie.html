@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX GAME</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/index.css"> 
+    <link rel="stylesheet" href="/CSS/categorie.css">
+</head>
+<body>
+    
+    <div class="box-title">
+      <a href="index.html"><img src="/img/flexgames.png" style="height: 100%; width: 21%;"></a>
+    </div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="footer-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><strong>FLEX GAME</strong></a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html"><strong><i class="fa fa-gamepad" aria-hidden="true"></i>ESPLORA</strong></a></li>
+              <li><a href="categorie.html"><strong><i class="fa fa-folder" aria-hidden="true"></i>CATEGORIE</strong></a></li>
+              <li><a href="carrello.html"><strong><i class="fa fa-shopping-cart" aria-hidden="true"></i>CARRELLO</strong></a></li>
+              <li><a href="contatti.html"><strong><i class="fa fa-map-marker" aria-hidden="true"></i>CONTATTI</strong></a></li>
+              <li><a href="profilo.html"><strong><i class="fa fa-user" aria-hidden="true"></i>PROFILO</strong></a></li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>    
+
+    <section class="picture">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <img src="/img/fifa22large.jpg" style="height:100%; width: 100%;">
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tutte" data-toggle="tab">Tutte</a></li>
+                    <li><a href="#arcade" data-toggle="tab">Arcade</a></li>
+                    <li><a href="#avventura" data-toggle="tab">Avventura</a></li>
+                    <li><a href="#azione" data-toggle="tab">Azione</a></li>
+                    <li><a href="#online" data-toggle="tab">Coop Online</a></li>
+                    <li><a href="#fps" data-toggle="tab">FPS</a></li>
+                    <li><a href="#free" data-toggle="tab">Free to Play</a></li>
+                    <li><a href="#indies" data-toggle="tab">Indies</a></li>
+                    <li><a href="#picchia" data-toggle="tab">Picchiaduro</a></li>
+                    <li><a href="#rpg" data-toggle="tab">RPG</a></li>
+                    <li><a href="#sport" data-toggle="tab">Sport</a></li>
+                    <li><a href="#strategia" data-toggle="tab">Strategia</a></li>
+                    <li><a href="#vr" data-toggle="tab">VR</a></li>
+                    <li><a href="#altro" data-toggle="tab">Altro</a></li>
+                  </ul>
+                  
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tutte">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/cp.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">CYBERPUNK 2077</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fifa.png" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FIFA 22</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/kena.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">KENA</span>
+                        <span id="secnome">Bridge of Spirit</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/cod.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">CALL OF DUTY</span>
+                        <span id="secnome">Vanguard</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/gdg.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GUARDIANI DELLA GALASSIA</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/farcry.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FARCRY 6</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/rc.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">RACHET & CLANK</span>
+                        <span id="secnome">Rift Apart</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/loop.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DEATHLOOP</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fh5.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FORZA HORIZON 5</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/b4b.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BACK 4 BLOOD</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/toa.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TALES OF ARISE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ara.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ARAGAMI 2</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="arcade">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/hot.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">HOT WHEELS</span>
+                        <span id="secnome">Unleashed</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/allstar.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ALL-STAR BRAWL</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/greak.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GREAK</span>
+                        <span id="secnome">Memories of Azur</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/tokyo.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">OLYMPIC GAMES TOKYO 2020</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/dod.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DODGEBALL ACADEMIA</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/spirit.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SPIRIT</span>
+                        <span id="secnome">Lucky's Big Adventure</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/crew.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">THE CREW 2</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/tekken.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TEKKEN 7</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/wrc.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WRC 7</span>
+                        <span id="secnome">World Rally Championship</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/mk.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">MORTAL KOMBAT 11</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/goat.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GOAT SIMULATOR</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/nbapg.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">NBA PLAYGROUNDS 2</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="avventura">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fh5.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FORZA HORIZON 5</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/2042.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BATTLEFIELD 2042</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/farcry.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FARCRY 6</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/cod.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">CALL OF DUTY</span>
+                        <span id="secnome">Vanguard</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/gone.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DAYS GONE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ashes.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">HOUSE OF ASHES</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/midgard.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TRIBES OF MIDGARD</span>
+                        <span id="secnome">Deluxe Edition</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/bio.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BIOMUTANT</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/b4b.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BACK 4 BLOOD</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/loop.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DEATHLOOP</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/sand.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">STARSAND</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/monster.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">MONSTER HUNTER STORIES 2</span>
+                        <span id="secnome">Wings of Ruin</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="azione">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/jurassic.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">JURASSIC WORLD</span>
+                        <span id="secnome">Evolution 2</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/witch.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">HOUR OF THE WITCH CHAPTER</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/evil.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">RESIDENT EVIL</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ring.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ELDEN RING</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/orcs.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ORCS MUST DIE! 3</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/total.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TOTAL WAR</span>
+                        <span id="secnome">Warhammer III</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/chivalry.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">CHIVALRY 2</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/killer.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">KILLER</span>
+                        <span id="secnome">Expansion Pack</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/toa.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TALES OF ARISE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/demon.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DEMON SLAYER</span>
+                        <span id="secnome">The Hinokami Chronicles</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ww.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WORLD WAR Z</span>
+                        <span id="secnome">Aftermath</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/sea.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">KING OF SEAS</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="online">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/aoe.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">AGE OF EMPIRES IV</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/nba.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">NBA 2K22</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fifa.png" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FIFA 22</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/raiser.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">HELLRAISER</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/2042.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BATTLEFIELD 2042</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/snow.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SNOWRUNNER</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/dark.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">THE DARK PICTURES</span>
+                        <span id="secnome">Triple pack</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/wilder.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WILDERMYTH</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/alien.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ALIEN</span>
+                        <span id="secnome">Fireteam Elite</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ascent.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">THE ASCENT</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/police.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">POLICE SIMULATOR</span>
+                        <span id="secnome">Patrol Officers</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ring.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ELDEN RING</span>
+                      </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="fps">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/b4b.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BACK 4 BLOOD</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/odyssey.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ODYSSEY</span>
+                        <span id="secnome">Elite Dangerous</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/light.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DYING LIGHT 2</span>
+                        <span id="secnome">Stay Human</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/mech.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">MECHWARRIOR 5</span>
+                        <span id="secnome">Mercenaries</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/severed.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SEVERED STEEL</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/graven.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GRAVEN</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/necro.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">NECROMUNDA</span>
+                        <span id="secnome">Hired Gun</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/lemnis.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">LEMNIS GATE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/who.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DOCTOR WHO</span>
+                        <span id="secnome">The Edge of Reality</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/into.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">INTO THE PIT</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/sniper.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SNIPER ELITE VR</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/overwatch.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">OVERWATCH</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="free">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fotnite.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FORTNITE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/destiny2.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DESTINY 2</span>
+                        <span id="secnome">The Final Shape</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/elyon.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ELYON</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/warframe.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WARFRAME</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/generals.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">HEROES & GENERALS</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/crossout.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">CROSSOUT</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/conq.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">CONQUEROR'S BLADE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/brawl.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BRAWLHALLA</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/lord.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">THE LORD OF THE RINGS ONLINE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/lol.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">LEAGUE OF LEGENDS</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/valo.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">VALORANT</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/tera.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TERA</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="indies">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/potion.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">POTION CRAFT</span>
+                        <span id="secnome">Alchemist Simulator (Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/midgard.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TRIBES OF MIDGARD</span>
+                        <span id="secnome">Deluxe Edition</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/medieval.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GOING MEDIEVAL</span>
+                        <span id="secnome">(Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/despot.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DESPOT'S GAME</span>
+                        <span id="secnome">Dystopian Army Builder (Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/humankind.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">HUMANKIND</span>
+                        <span id="secnome">Digital Deluxe Edition</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/campfire.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">THE LAST CAMPFIRE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/maneater.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">MANEATER</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/unmetal.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">UNMETAL</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/wilder.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WILDERMYTH</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/sheltered.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SHELTERED 2</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/defend.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DEFEND THE ROCK</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/lake.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">LAKE</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="picchia">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/guilty.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GUILTY GEAR</span>
+                        <span id="secnome">Strive</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/scarlet.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SCARLET NEXUS</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/tekken.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TEKKEN 7</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/naruto.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">NARUTO SHIPPUDEN</span>
+                        <span id="secnome">Ultimate Ninja Storm 4</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/injustice.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">INJUSTICE</span>
+                        <span id="secnome">Legendary Edition</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/mortal.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">MORTAL KOMBAT XL</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ghost.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GHOSTRUNNER</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/forhonor.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FOR HONOR</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/street.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">STREET FIGHTER V</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/jump.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">JUMP FORCE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/mordhau.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">MORDHAU</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/stick.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">STICK FIGHT</span>
+                        <span id="secnome">The Game</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="rpg">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/blackwood.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BLACKWOOD</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/god.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GOD OF WAR IV</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/gdg.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GUARDIANI DELLA GALASSIA</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ring.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ELDEN RING</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/dinasty.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">MEDIEVAL DYNASTY</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/bio.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BIOMUTANT</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/despot.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DESPOT'S GAME</span>
+                        <span id="secnome">Dystopian Army Builder (Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/toa.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TALES OF ARISE</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/ded.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DOUNGEONS & DRAGONS</span>
+                        <span id="secnome">Dark Alliance</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/odyssey.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ODYSSEY</span>
+                        <span id="secnome">Elite Dangerous</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/skylands.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">BLACK SKYLANDS</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/graven.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GRAVEN</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="sport">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fifa.png" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FIFA 22</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fm22.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FOOTBALL MANAGER 2022</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fh5.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FORZA HORIZON 5</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/nba.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">NBA 2K22</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/riders.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">RIDERS REPUBLIC</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/wrc10.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WRC 10</span>
+                        <span id="secnome">FIA World Rally Championship</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/rims.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">RIMS RACING</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/f1.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">F1 2021</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/drift.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DRIFT 21</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/tokyo.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">OLYMPIC GAMES TOKYO 2020</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/nascar.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">NASCAR 21</span>
+                        <span id="secnome">Ignition</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/france.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">TOUR DE FRANCE 2021</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="strategia">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/darkness.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">AGE OF DARKNESS</span>
+                        <span id="secnome">Final Stand (Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/aoe.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">AGE OF EMPIRES IV</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/surviving.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SURVIVING MARS</span>
+                        <span id="secnome">Below and Beyond</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/orcs.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ORCS MUST DIE! 3</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/medieval.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">GOING MEDIEVAL</span>
+                        <span id="secnome">(Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/cult.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">HONEY, I JOINED A CULT</span>
+                        <span id="secnome">(Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/wilder.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WILDERMYTH</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/disciples.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DISCIPLES</span>
+                        <span id="secnome">Liberation</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/mongrels.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">WAR MONGRELS</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/odyssey.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ODYSSEY</span>
+                        <span id="secnome">Elite Dangerous</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/villeins.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">LORD AND VILLEINS</span>
+                        <span id="secnome">(Early Access)</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/lemnis.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">LEMNIS GATE</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="vr">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/assetto.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ASSETTO CORSA</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/skyrim.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SKYRIM VR</span>
+                        <span id="secnome">The Elder Scrolls V</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/wingman.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">PROJECT WINGMAN</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fallout.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FALLOUT 4 VR</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/space.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DEAD SPACE 3</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/walking.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">THE WALKING DEAD</span>
+                        <span id="secnome">Saints & Sinners Tourist Edition</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/starwars.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">STAR WARS</span>
+                        <span id="secnome">Squadrons</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/dirt.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DiRT 4</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/superhot.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SUPERHOT VR</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/dragon.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DRAGON AGE 2</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/doom.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">DOOM VFR</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/sniper.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">SNIPER ELITE VR</span>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane" id="altro">
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/1050.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FIFA 22</span>
+                        <span id="secnome">1050 FUT Points</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/4600.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FIFA 22</span>
+                        <span id="secnome">4600 FUT Points</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/12abb.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">PLAYSTATION PLUS</span>
+                        <span id="secnome">Abbonamento 365 Giorni</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/1abb.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">PLAYSTATION PLUS</span>
+                        <span id="secnome">Abbonamento 30 Giorni</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fondo35.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">CARTA PLAYSTATION NETWORK 35€</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/xbox3.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">XBOX GAME PASS</span>
+                        <span id="secnome">Ultimate 3 Months</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/xbox1.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">XBOX GAME PASS</span>
+                        <span id="secnome">Ultimate 1 Months</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/nintendo12.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">ABBONAMENTO NINTENDO 12 MESI</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fortbat.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FORTNITE</span>
+                        <span id="secnome">Armored Batman Zero Skin</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/fortminty.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">FORTNITE</span>
+                        <span id="secnome">Minty Legends Pack</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/apex.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">APEX LEGENDS</span>
+                        <span id="secnome">1000 Apex Coins</span>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="copertina"><a href=""><img src="/img/valo950.jpg" style="width: 100%; height: 100%;"></a></div>
+                        <span id="nomegioco">VALORANT</span>
+                        <span id="secnome">950 Riot Points</span>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="vedi">
+      <a href="">
+      <button class="punti">...</button>
+      <div><span>Vedi Altro</span></div>
+      </a>
+    </div>
+
+    <section class="picture">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <img src="/img/fmlarge.jpg" style="height:100%; width: 100%;">
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </section>
+
+    <footer id="footer-Section">
+        <div class="footer-top-layout">
+          <div class="container">
+            <div class="row">
+              <div class="OurBlog">
+                <h4>FLEX GAME</h4>
+                <hr width="60%">
+              </div>
+              <div class=" col-lg-8 col-lg-offset-2">
+                <div class="col-sm-4">
+                  <div class="footer-col-item">
+                    <h3>Dove Trovarci</h3>
+                    <address>
+                        Piazza Vittorio Emanuele, 1<br>
+                        10100 Torino IT
+                    </address>
+                    <address>
+                        Piazza Duomo, 1<br>
+                        20100 Milano IT
+                    </address>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="footer-col-item">
+                    <h3>Chiamaci</h3>
+                    <div class="item-contact"> 
+                        <a href="tel:630-885-9200"><span class="link-id">TO</span>:<span>011 5963158</span></a> 
+                        <br>
+                        <br>
+                        <br>
+                        <a href="tel:630-839.2006"><span class="link-id">MI </span>:<span>02 6486951</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="footer-col-item">
+                    <h3>Newsletter</h3>
+                    <form class="signUpNewsletter" action="" method="get">
+                      <input name="" class="gt-email form-control" placeholder="Email" type="text">
+                      <input name="" class="btn-go" value="Go" type="button">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <div class="final-footer">
+        <div class="container-footer">
+                <a href='#'><i class="fa fa-twitch fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+        </div>
+      </div>
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

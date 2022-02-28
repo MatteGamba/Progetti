@@ -1,0 +1,299 @@
+.profilo .container-fluid{
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profilo .col-md-10{
+    height: auto;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 50px;
+}
+
+.profilo .col-md-10 .col{
+    /* border: 1px solid black; */
+    height: 300px;
+}
+
+.col-md-10 .col-sm-4{
+    padding: 20px 30px 20px 90px;
+}
+
+.col-md-10 .col img{
+    border-radius: 100%;
+}
+
+.profilo .col-sm-7{
+    padding: 10px 20px 20px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.prima-riga{
+    /* border: 1px solid black; */
+    height: 60px;
+    position: relative;
+}
+
+.prima-riga h1{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.prima-riga .nome-profilo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.nome-profilo a{
+    margin-left: 15px;
+    color: rgb(49, 49, 49);
+}
+
+.nome-profilo a:hover{
+    color: #428bca;
+    text-decoration: none;
+}
+
+.prima-riga .member{
+    color: rgba(0, 0, 0, 0.726);
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    font-size: 12px;
+}
+
+.seconda-riga{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: auto;
+    padding: 0;
+    position: relative;
+}
+
+.seconda-riga span{
+    position: absolute;
+    left: 42px;
+}
+
+.seconda-riga p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.seconda-riga a{
+    color: rgb(49, 49, 49);
+}
+
+.seconda-riga a:hover{
+    color: #428bca;
+}
+
+.terza-riga{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: auto;
+    position: relative;
+}
+
+.terza-riga span{
+    position: absolute;
+    left: 42px;
+    top: 1px;
+    font-size: 20px;
+}
+
+.terza-riga p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.terza-riga a{
+    color: rgb(49, 49, 49);
+}
+
+.terza-riga a:hover{
+    color: #428bca;
+}
+
+.quarta-riga{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: auto;
+    position: relative;
+}
+
+.quarta-riga span{
+    position: absolute;
+    left: 42px;
+    top: 1px;
+}
+
+.quarta-riga p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.quarta-riga a{
+    color: rgb(49, 49, 49);
+}
+
+.quarta-riga a:hover{
+    color: #428bca;
+}
+
+.quinta-riga{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: auto;
+    position: relative;
+}
+
+.quinta-riga span{
+    position: absolute;
+    left: 42px;
+    top: 1px;
+}
+
+.quinta-riga p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.quinta-riga a{
+    color: rgb(49, 49, 49);
+}
+
+.quinta-riga a:hover{
+    color: #428bca;
+}
+
+.sesta-riga{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: auto;
+    position: relative;
+}
+
+.sesta-riga span{
+    position: absolute;
+    left: 42px;
+    top: 1px;
+}
+
+.sesta-riga p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.sesta-riga a{
+    color: rgb(49, 49, 49);
+}
+
+.sesta-riga a:hover{
+    color: #428bca;
+}
+
+.profilo-content{
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.719);
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.profilo-content h2{
+    text-align: center;
+    color: rgba(255, 157, 45, 0.815);
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 157, 45, 0.815);
+    padding-bottom: 5px;
+}
+
+.profilo-content .col-sm-2{
+    height: 230px;
+    /* border: 1px solid black; */
+}
+
+.profilo-content .container-fluid{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.profilo-content .col-sm-2{
+    padding: 5px;
+    text-align: center;
+}
+
+.copertine-ordini{
+    /* border: 1px solid black; */
+    height: 100%;
+    padding: 5px 8px;
+}
+
+.copertine-ordini img{
+    border-radius: 8px;
+}
+
+.copertine-ordini:hover{
+    padding: 2px 6px;
+    transition: 0.8s;
+}
+
+.profilo-content .col-sm-2 button{
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: rgb(187, 187, 187);
+    border: 0px solid grey;
+    border-radius: 100%;
+    margin-top: 50%;
+    margin-bottom: 4px;
+}
+
+.profilo-content hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid rgba(255, 157, 45, 0.815);
+}
+
+.recensioni-content{
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 8px;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.recensioni-content h2{
+    text-align: center;
+    color: rgba(255, 157, 45, 0.815);
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 157, 45, 0.815);
+    padding-bottom: 5px;
+}
+
+.recensioni-content span{
+    font-size: 16px;
+}
+
+.suggerimenti{
+    margin-top: 20px;
+}

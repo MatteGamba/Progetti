@@ -1,0 +1,136 @@
+.carrello .container-fluid .row .col-md-10{
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 8px;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+.account{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(185, 0, 0);
+}
+
+#mio-carrello{
+    float: right;
+}
+
+.carrello .container-fluid .row .col-md-10 hr{
+    margin: 0px;
+    border-top: 1px solid rgb(185, 0, 0);
+}
+
+.carrello .container-fluid .row .col-md-10 .col{
+    height: 40px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.815);
+    padding: 2px;
+    position: relative;
+}
+
+.col span{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(100, 100, 100, 0.815);
+}
+
+#prodotto{
+    position: absolute;
+    bottom: 3px;
+    left: 8px;
+}
+
+#descri{
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+}
+
+#prezzo{
+    position: absolute;
+    bottom: 3px;  
+    right: 8px;  
+}
+
+.xs{
+    height: 150px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.815);
+    padding: 15px;
+    padding-left: 7px;
+}
+
+.immagine-prodotto{
+    height: 100%;
+    width: 55%;
+}
+
+.immagine-prodotto img{
+    border-radius: 8px;
+}
+
+#testo-descri{
+    padding: 0px;
+    padding-left: 7px;
+    line-height: 150px;
+}
+
+#testo-descri p{
+    font-size: 20px;
+}
+
+#prezzo-euro{
+    position: relative;
+    padding: 0px;
+    line-height: 150px;
+}
+
+#prezzo-euro p{
+    position: absolute;
+    right: 8px;
+    font-size: 16px;
+}
+
+.totale{
+    height: 60px;
+    position: relative;
+}
+
+.totale span{
+    color: rgba(100, 100, 100, 0.815);
+    right: 8px;
+    top: 0;
+    position: absolute;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.totale p{
+    margin: 0;
+    bottom: 0;
+    right: 8px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.acquisto{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prosegui{
+    background-color: rgba(255, 157, 45, 0.815);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+.acquisto input{
+    margin: 0px;
+}
+
+.termini{
+    font-weight: 700;
+}

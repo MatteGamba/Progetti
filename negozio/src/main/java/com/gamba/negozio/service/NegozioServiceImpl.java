@@ -12,9 +12,8 @@ import com.gamba.negozio.repo.SerieRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @Service
 public class NegozioServiceImpl implements NegozioService{
@@ -145,6 +144,51 @@ public class NegozioServiceImpl implements NegozioService{
         });
 
         return mangaWithName;
+    }
+
+    @Override
+    public List<Game> orderGameByPrice() {
+        List<Game> games = gameRepo.findAll();
+        return games.stream()
+                .sorted(Comparator.comparing(Game::getPrice))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Serie> orderSerieByPrice() {
+        List<Serie> series = serieRepo.findAll();
+        return series.stream()
+                .sorted(Comparator.comparing(Serie::getPrice))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Manga> orderMangaByPrice() {
+        List<Manga> mangas = mangaRepo.findAll();
+        return mangas.stream()
+                .sorted(Comparator.comparing(Manga::getPrice))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Game> orderGameByScore() {
+        List<Game> games = gameRepo.findAll();
+        return games.stream().sorted(Comparator.comparing(Game::getScore))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Serie> orderSerieByScore() {
+        List<Serie> series = serieRepo.findAll();
+        return series.stream().sorted(Comparator.comparing(Serie::getScore))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Manga> orderMangaByScore() {
+        List<Manga> mangas = mangaRepo.findAll();
+        return mangas.stream().sorted(Comparator.comparing(Manga::getScore))
+                .collect(Collectors.toList());
     }
 
 }

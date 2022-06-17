@@ -33,4 +33,12 @@ public interface NegozioService {
     List<Serie> findSerieByTitle(String title);
     List<Manga> findMangaByTitle(String title);
 
+    List<Game> orderGameByPrice();
+    List<Serie> orderSerieByPrice();
+    List<Manga> orderMangaByPrice();
+
+    List<Game> orderGameByScore();
+    List<Serie> orderSerieByScore();
+    List<Manga> orderMangaByScore();
+
 }
